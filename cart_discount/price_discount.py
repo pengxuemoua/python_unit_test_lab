@@ -2,8 +2,8 @@ def main():
 
     #print(discount([10, 4, 20]))  # Expect this to print 4
     # what other lists might this function be called with?
-    display_total = discount([-8.25, -96.85, -101, -8578])
-    print(f'You recieved a discount of: ${display_total}')
+    display_total = discount([10, 4, 20])
+    print(display_total)
 
 def discount(item_prices):
     """ Complete this function that returns the discount earned for a list of item prices
